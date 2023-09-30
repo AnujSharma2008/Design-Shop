@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  transition: all ease 0.2s;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: none;
+}
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: #e7e7e7;
+  border: 1px solid #cacaca;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  background-color: #605f5f;
+}
+body {
+  background-color: rgb(175, 175, 175);
+  background-image: url(https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/main_background?v=1695202362963);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+.container {
+  width: 100%;
+  margin-top: 100px;
+}
+hr{
+  margin: 10px 0px ;
+}
+b {
+  font-weight: 510;
+}
+.defualt-links {
+  color: rgb(62, 29, 244);
+  font-weight: 600;
+}
+.defualt-links:hover {
+  color: rgb(28, 13, 112);
+}
+.img-border {
+  border-radius: 8px;
+  border: 2px solid;
+  width:50%;
+  height: 50%;
+  border-color: #000;
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+}
+#hero-title {
+  font-size: 60pt;
+  line-height: 1;
+  font-weight: 700;
+  text-shadow: 0px 0px 20px #302828;
+  margin-bottom: 10px;
+}
+#hero-discription {
+  color: #fff;
+  font-size: 12pt;
+  text-shadow: 0px 0px 3px #302828;
+  font-weight: 500;
+  padding: 10px 100px;
+}
+.links {
+  color: rgb(18, 140, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+.links:hover {
+  text-decoration: underline;
+}
+.divider-parent .child {
+  border-bottom: 3px solid #fff;
+  width: 80%;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+.divider-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.content .child {
+  padding: 0px 40px;
+  font-size: 18pt;
+  font-weight: 500;
+}
+section {
+  width: 80%;
+  text-align: left;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 7px 15px;
+  margin-top: 20px;
+  font-size: 11pt;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(4px);
+}
+.child p {
+  font-size: 12pt;
+  font-weight: 400;
+  padding: 10px;
+}
+font {
+  color: salmon;
+  text-shadow: 0px 0px 5px #000;
+  font-weight: bold;
+}
+.links font {
+  font-size: 8pt;
+  margin-left: 5px;
+}
+.flexbox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+details summary {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+section ul {
+  padding: 0px 20px;
+}
+.tasks {
+  margin-top: 40px;
+}
+.tasks p {
+  margin-bottom: 10px;
+  font-size: 18pt;
+  color: #fff;
+}
+.tasks font {
+  font-size: 14pt;
+}
+.tasks-column {
+  width: 80%;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 7px 15px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  font-weight: 400;
+  margin: 43px 0px 0px 0px;
+  max-width: 500px;
+}
+.tasks-column span {
+  margin: 0px 0px 10px;
+  font-size: 30pt;
+  text-shadow: 0px 0px 10px #000;
+  font-weight: 500;
+}
+.tasks-column p {
+  font-size: 11pt !important;
+}
+.tasks-column ul {
+  padding: 0px 25px;
+  text-align: left;
+}
+ul li strong {
+  font-weight: 600;
+  color: rgb(175, 200, 245);
+}
+code {
+  border: 1px solid #555555;
+  border-radius: 4px;
+  padding: 1px 5px;
+  background: #333333;
+  color: #dddddd;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup .content {
+  margin: 10px 0px 0px;
+  text-align: left;
+  color: #000000;
+  align-items: flex-start;
+  padding: 0px 10px 0px 25px;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  height: 280px;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  line-height: 1;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: salmon;
+}
+.tasks-column ul li strong::after {
+  content: " : ";
+}
+.tasks-column ul li a::after {
+  content: " )";
+}
+.tasks-column ul li a::before {
+  content: "( ";
+}
+ul li details summary::after {
+  content: "Info :-";
+}
+#art-suprise .popup {
+  height: 190px;
+}
+.flexbox span {
+  font-size: 40pt;
+  color: #ffffff;
+  font-weight: 550;
+}
+.Owners {
+  color: #fff;
+}
+.astral {
+  color: #5ea7e4;
+  font-weight: bold;
+}
+.ansh {
+  color: #303a50;
+  font-weight: bold;
+}
+.xerneas {
+  color: #fa0000;
+  font-weight: bold;
+}
+.flexbox .content {
+  flex-direction: column;
+}
+#footer {
+  margin: 0px 0px 20px 0px;
+  padding: 0px 30px;
+  text-shadow: 0px 0px 10px #000;
+}
+.icons {
+  width: 50px;
+  margin: 10px 15px 0px;
+  height: 50px;
+}
+.icons[title="Dawn"] {
+  border-radius: 50%;
+  color: yellow;
+}
+.icons:hover {
+  transform: scale(1.2);
+}
+#footer-end {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+@media (max-width: 1075px) {
+  #hero-discription {
+    padding: 15px;
+  }
+  #hero-title {
+    font-size: 50pt;
+  }
+  .popup {
+    width: 50%;
+  }
+}
+@media (max-width: 700px) {
+  #hero-discription {
+    padding: 0px;
+    font-size: 10pt;
+  }
+  #hero-title {
+    font-size: 45pt;
+  }
+  .child p {
+    font-size: 10pt;
+  }
+  #hero {
+    margin: 50px 50px 0px;
+  }
+  ul li {
+    font-size: 13px;
+  }
+  .tasks font {
+    font-size: 10pt;
+  }
+  .tasks-column {
+    margin-top: 35px;
+  }
+  .tasks-column p {
+    font-size: 10pt !important;
+  }
+  details {
+    font-size: 8pt;
+  }
+  .box {
+    width: 70%;
+  }
+  .popup {
+    width: 70%;
+  }
+  .popup h2 {
+    font-size: 16pt;
+  }
+  .popup {
+    height: 350px;
+    width: 70%;
+  }
+  #art-suprise .popup {
+    height: 220px;
+    width: 70%;
+  }
+  .flexbox span {
+    font-size: 30pt;
+  }
+  .flexbox .content {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  #Owners {
+    font-size: 12pt;
+  }
+}
