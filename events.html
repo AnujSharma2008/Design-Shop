@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event - Design Shop</title>
+    <link rel="icon" sizes="32x32" href="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/favicon-32x32.png?v=1695193637125" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="data.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav id="navbar" data-aos="slide-down">
+      <div id="logo">
+        <a target="_blank" href="https://dawn.psim.us/designshop"
+          >Design Shop</a
+        >
+      </div>
+      <div id="navbtn">
+        <a class="nav-text" href="/">Home</a>
+        <a class="nav-icon" href="/" title="home"
+          ><i class="fa-solid fa-house"></i
+        ></a>
+        <a class="nav-text" href="/examples.html">Examples</a>
+        <a class="nav-icon" href="/examples.html" title="Examples"
+          ><i class="fa-solid fa-code-compare"></i
+        ></a>
+        <a class="nav-text" href="/gallery.html">Gallery</a>
+        <a class="nav-icon" href="/gallery.html" title="Gallery"
+          ><i class="fa-solid fa-image"></i
+        ></a>
+        <a class="nav-text active" href="/events.html">Event</a>
+        <a class="nav-icon active" href="/event.html" title="Events"
+          ><i class="fa-solid fa-fire"></i
+        ></a>
+        <a class="nav-text" href="/staff.html">Staff</a>
+        <a class="nav-icon" href="/staff.html" title="Staff"
+          ><i class="fa-solid fa-user"></i
+        ></a>
+        <i onclick="open_it()" id="bars" class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <div onclick="exit()" id="navoption">
+      <ul>
+        <li>
+          <a href="/"><i class="fa-solid fa-home"></i> Home</a>
+        </li>
+        <li class="li-2">
+          <a href="/examples.html"><i class="fa-solid fa-code-compare"></i> Examples</a>
+        </li>
+        <li>
+          <a href="/gallery.html"><i class="fa-solid fa-image"></i> Gallery</a>
+        </li>
+        <li class="li-2">
+          <a href="/events.html"><i class="fa-solid fa-fire"></i> Event</a>
+        </li>
+        <li>
+          <a href="/staff.html"><i class="fa-solid fa-user"></i> Staff</a>
+        </li>
+      </ul>
+    </div>
+    <br />
+    <!--home-->
+    <div class="container">Events</div>
+    <div class="flexbox">
+      <div class="tasks-column">
+        <div class="date">4<sup>th</sup>&zwnj; Contest</div>
+        <p>CAP Contest</p>
+        <ul>
+          <li>
+            <strong>Best Lore</strong
+            ><abbr class="heian">Hei&apos;an Qingfu</abbr> <br /><a
+              href="#heian"
+              class="links"
+              >Check out</a
+            >.
+          </li>
+          <li>
+            <strong>Best Art</strong><abbr class="astral">Sahdow Astral</abbr>
+            <br /><a href="#astral" class="links">Check out</a>.
+          </li>
+          <li>
+            <strong>Best CAP</strong><abbr class="nli">Not Living Inside</abbr>
+            <br /><a href="#nli" class="links">Check out</a>.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="flexbox margin-top">
+      <div class="tasks-column">
+        <div class="date">3<sup>rd</sup>&zwnj; Contest</div>
+        <p>Trainer dressed as favorite Pokemon</p>
+        <ul>
+          <li>
+            <strong>Winner</strong
+            ><abbr class="redd">Redd</abbr>
+            <br /><img src="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/219580701.gif?v=1695195671729" height="80px" width="80px">
+          </li>
+          <li>
+            <strong>Runner Up</strong><abbr class="mtydragon">Mighty Dragon</abbr>
+            <br /><img src="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/127900102.gif?v=1695195675349" height="80px" width="80px">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="flexbox margin-top">
+      <div class="tasks-column">
+        <div class="date">2<sup>nd</sup>&zwnj; Contest</div>
+        <p>Trainer dressed as favorite Pokemon</p>
+        <ul>
+          <li>
+            <strong>Winner</strong
+            ><abbr class="shade-hare">Shade Hare</abbr>
+            <br /><img src="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/824665183.gif?v=1695195551542" height="80px" width="80px">
+          </li>
+          <li>
+            <strong>Runner Up</strong><abbr class="stylecss">Style.css</abbr>
+            <br /><img src="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/885211189_orig.png?v=1695195552940" height="80px" width="80px">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="flexbox margin-top">
+      <div class="tasks-column">
+        <div class="date">1<sup>st</sup>&zwnj; Contest</div>
+        <p>Fusion or regional variant grass-fire Pokemon</p>
+        <ul>
+          <li>
+            <strong>Winner</strong
+            ><abbr class="aeova">Aeova</abbr>
+            <br /><img src="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/488364617.png?v=1695195556029" height="80px" width="80px">
+          </li>
+          <li>
+            <strong>Runner Up</strong><abbr class="a-flying-phantom">A Flying Phantom</abbr>
+            <br /><img src="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/626985009.png?v=1695195560421" height="80px" width="80px">
+          </li>
+        </ul>
+      </div>
+    </div><br>
+    <div id="heian" class="overlay flexbox">
+      <div class="popup scroll">
+        <div>
+          <h2>Hei&apos;an Qingfu</h2>
+          <a class="close" href="#">&times;</a>
+        </div>
+        <div class="content">
+          <b>Name</b>: Eledaia
+          <br />
+          <b>Typing</b> Fairy/Dark
+          <br />
+          <b>Abilities</b>: Magician | Unnerve / HA: Intimidate<br />
+          <b>Base Stats</b>: 80/100/80/120/120/100 (BST 600)<br />
+          <b>Movepool</b>: Draining Kiss, Disarming Voice, Hyper Voice, Cotton
+          Spore, Scary Face, Bug Buzz, Screech, Metal Sound, Ice Beam,
+          Thunderbolt, Thunder Shock, Thunder, Thunder Wave, Dragon Pulse,
+          Spirit Break, Moonblast, Dazzling Gleam, Focus Blast, Earth Power, Icy
+          Wind, Parting Shot, Flame Burst, Fire Spin, Sparkling Aria, Baby-Doll
+          Eyes, Fake Tears, Blizzard, Sunny Day, Fire Blast, Chilling Water,
+          Hydro Pump, Healing Wish, Acupressure, Iron Defense, Agility, Nasty
+          Plot, Calm Mind, Power Trip, Swords Dance, Foul Play, Dark Pulse,
+          Crunch, Play Rough, Confide, Bide, Magic Coat, Air Slash, Toxic,
+          Protect, Rest, Sleep Talk, Recover, Substitute, Stored Power
+          <br />
+          <b>Height/Weight</b>: 2.5m, 51kg
+          <br />
+          <b>Dex Color</b>: Purple
+          <br />
+          <b>Egg Group</b>: Amorphous <br /><br />
+
+          <b>Name</b>: Eledaia-Reborn
+          <br />
+          <b>Typing</b>: Steel/Dark
+          <br />
+          <b>Abilities</b>: Sharpness | Unnerve / HA: Battle Armor<br />
+          <b>Base Stats</b>: 80/120/120/80/100/100 (BST 600)<br />
+          <b>Movepool</b>: Draining Kiss, Disarming Voice, Hyper Voice, Metal
+          Sound, Scary Face, Lunge, Screech, Metal Sound, Ice Spinner, Thunder
+          Shock, Wild Charge, Thunder Wave, Dragon Claw, Spirit Break, Close
+          Combat, Bulldoze, High Horsepower, Parting Shot, Flame Charge, Flare
+          Blitz, Baby-Doll Eyes, Fake Tears, Fire Lash, Aqua Cutter, Rain Dance,
+          Iron Defense, Autotomize, Sucker Punch, Calm Mind, Power Trip, Taunt,
+          Swords Dance, Foul Play, Dark Pulse, Crunch, Play Rough, Confide,
+          Bide, Air Slash, Air Cutter, Leaf Blade, Psycho Cut, Sacred Sword,
+          Smart Strike, Iron Head, Meteor Mash, Lock On, Guillotine, Steel
+          Roller, Steel Beam, Toxic, Protect, Rest, Sleep Talk, Recover,
+          Substitute
+          <br />
+          <b>Height/Weight</b>: 2.5m, 51kg
+          <br />
+          <b>Dex Color</b>: Purple
+          <br />
+          <b>Egg Group</b>: Amorphous
+
+          <br /><br />
+
+          <b>Lore</b>:
+          <br />
+
+          <b><center>DEX</center></b>
+
+          <b>Scarlet</b>: When adventurers venture out into the ruins at night,
+          they may hear an enchanting voice calling to them. By then, it is too
+          late.
+          <br />
+
+          <b>Violet</b>: This Pokemon&apos;s cries are so harrowing that they
+          send chills down the spines of even the bravest Pokemon Trainer.
+          Caution is advised for this easily tempered Pokemon.
+          <br />
+
+          <b>Scarlet[Reborn]</b>: This Pokemon&apos;s latent power manifests
+          into a will of battle fury and a lust for combat. The magical blades
+          that it wields can cut through diamond.
+
+          <br />
+          <b>Violet[Reborn]</b>: Trainers lose their will to battle when meeting
+          this Pokemon, as its sheer presence alone siphons their ability to
+          stay sharp in the face of dangerous weaponry.
+          <br />
+
+          <b>Background</b>: Once upon a time gone, there was a royal family who
+          prided themselves on their ability to bond with Pokemon. Strong
+          warriors sparring with their powerful companions, fair maidens
+          escorting their dear friends to and fro, and travelers feeling safe
+          knowing that battle or ambush can be fought with their partner by
+          their side. This family sat well and lavish within a forgotten
+          kingdom, destined for a rich bloodline.
+
+          <br />
+          Until the Great War between Truth and Ideals broke out.
+
+          <br />
+          Whispers of who followed what reached the ears of the kingdom and the
+          seeds of disarray sprouted like wildfire as citizens slowly grew
+          distant from each other. Eventually, even those of the royal family
+          fell victim to the age-old question: what value matters more in life -
+          finding the truth and living by it, or following your ideals to the
+          end and spreading them far and wide? Some went against this ultimatum,
+          notably the daughter of the royal house&apos;s lord and lady, Eleanor.
+          She saw that a world can live with both and to think one better than
+          the other is foolhardy to seek conflict over.
+
+          <br />
+          Others did not agree.
+          <br />
+
+          Without mercy, she was cast out from her family and sent to the wolves
+          like pigs to slaughter. They captured her, tortured her, and made her
+          cry for nights on end as she pined for her family to forgive her and
+          take her back in. There was no end to the creativity that
+          rage-stricken peasants could use to make her life hell on earth, and
+          every day was more and more reason to not go on. But she stayed
+          strong, knowing that her truth to allow ideals to flourish while
+          knowing the facts behind them will keep her alive through such a dark
+          time.
+
+          <br />
+          But her will cannot stop the sharp end of a blade.
+
+          <br />
+          With one last cry out for her family that had forsaken her, Eleanor
+          pleaded for the war to end and to bring peace to her kingdom and her
+          family, having her final words cut short as she was stabbed clean
+          through her broken heart and left to choke on her waning life before
+          succumbing. The echoes of her cry did not go unnoticed, for the royal
+          family - albeit still bitter for her not following their ideologies -
+          were enraged at the news of her death.
+          <br />
+
+          Soon, the war fell into the lines of the innocent. Men, women,
+          children, old and young, friends and lovers, all giving up their bonds
+          for the sake to settle a score. The bloodshed was violent, and lasted
+          for many an hour before finally, a cry was heard.
+          <br />
+
+          The cry of the slain princess, born again as a warrior of faith.
+
+          <br />
+          <b>Competitive niche?</b> (you are also allowed to provide sample
+          sets)
+
+          <br />
+          Eledaia is a wall breaker, built to cover a wide selection of various
+          walls thanks to its myriad of attacks favoring its notable Special
+          Attack. Calm Mind sets allow it to build itself into either a strong
+          late-game sweeper with STAB and coverage for Steel(Flamethrower/Fire
+          Blast/Earth Power), Poison or strong Fighting types(Stored Power), or
+          Bug types that resist Fairy. Nasty Plot sets lets it utilize its
+          Special Attack much sooner at the cost of no extra bulk to ward off
+          specially attacking walls that can sit and whittle it down. It also
+          has a niche in being a pivot with Intimidate for an ability and
+          Parting Shot to get back out before it gets hurt. Hydreigon, Iron
+          Hands, Dragapult, and other OU threats have a hard time sitting in on
+          Eledaia due to its decent STAB combo.
+
+          <br />
+          Leftover sets appreciate compiling passive healing with Recover, which
+          allows it to live longer in a game of hazard chip that cannot be
+          cleared.
+
+          <br />
+          Eledaia does suffer from being checked by common Scarfs like Gengar,
+          offensive sets being walled by Toxapex or Unaware, defensive sets
+          having to wait for things like Gholdengo or Crucibelle to be knocked
+          out, or being forced back out from being able to set up by Venomicon
+          or Cawmodore.
+          <hr />
+
+          Eledaia-Reborn is a wallbreaker built to cut through most walls.
+          Swords Dance or even Life Orb sets make use of its vast array of
+          physical moves, and Sharpness boosts all Slicing attacks to make
+          normal checks risky. Although, Choice Band is a niche set that lets it
+          forgo setup to use raw power instead, letting it fill in one more
+          attack. Double Dance sets allow it to make use of Power Trip not being
+          immune to anything compared to base Eledaia&apos;s Stored Power, and
+          Weakness Policy sets have grown to a noticeable degree thanks to its
+          decent 80/120/100 bulk to survive at least two non-Fighting attacks.
+          <br />
+
+          Defensive sets lose out on the ability to lower attack stats twice
+          with Battle Armor instead of Intimidate, and supportive sets are
+          lacking when its only moves to help a teammate in Double Battles are
+          stat-lowering ones. Eledaia-Reborn&apos;s typing makes it a glass
+          cannon to the numerous Fighting types in the meta, and defensive walls
+          that can switch in on it carry Body Press, which limit the amount of
+          opportunities it has to come in and clean up. Corviknight can live a
+          Fire Last and hit back with Body Press, while things like Iron Hands
+          or Cinderace shut it down before it can get going.
+          <br />
+
+          Eledaia-Blade appreciates teammates like Mollux who can help it stay
+          out of fighting Toxapex, Plasmanta for Kerfluffle switchins, or
+          Amoonguss to stop Breloom from clicking Mach Punch on it.
+
+          <br />
+          <b>Sprites</b>: [N/A]
+        </div>
+      </div>
+    </div>
+    <div id="astral" class="overlay flexbox">
+      <div class="popup scroll">
+        <div>
+          <h2>Shadow Astral</h2>
+          <a class="close" href="#">&times;</a>
+        </div>
+        <div class="content">
+          <b>Name</b>: Masperent<br />
+          <b>Typing</b>: Water/Dragon<br />
+          <b>Abilities</b>: Drizzle, Adaptability [H]<br />
+          <b>Base Stats</b>: 580<br />
+          <b>HP</b> = 90 / <b>Attack</b> = 70 / <b>Defence</b> = 90<br />
+          <b>Sp. Atk</b> = 130 / <b>Sp. Def</b> = 95 / <b>Speed</b> = 105<br />
+          <b>Movepool</b>:<br />
+          <b>Status</b>- Protect, Rest, Sleep Talk, Substitute, Rain Dance,
+          Endure, Dragon Dance, Aqua Ring, Calm Mind, Roar, Life Dew, Shell
+          Smash, Tail Whip, Tailwind, Tail Glow.<br />
+          <b>Physical</b>- Body Slam, Waterfall, Dive, Outrage, Aqua Tail,
+          Dragon Tail, Tail Slap, Iron Tail, Poison Tail.<br />
+          <b>Special</b>- Water Spout, Hyper Beam, Hydro Pump, Draco Meteor,
+          Thunderbolt, Energy Ball, Dragon Pulse, Water Pulse, Surf, Ancient
+          Power, Swift, Tera Blast, Hidden Power [-All type-].<br />
+          <b>Height/Weight</b>: 3.8m, 420kg<br />
+          <b>Dex Color</b>: Blue<br />
+          <b>Egg Group</b>: Undiscovered<br />
+          <br /><b>Lore</b>-<br />
+          Lysandre was a great scientist who was trying to make Mega Lapras, he
+          tried different types of experiments and mega stones on lapras but got
+          no result. Lysandre became obsessed with trying to make a water
+          legendary threat for team flare, After all he merged the DNA of
+          gyarados and lapras together and tried a mega stone on it. Eventually
+          he got a shocking result, And a new pokemon called Masperent borns.
+          Unfortunately it escaped Lysandre&apos;s Lab and went into
+          Diablo&apos;s Ocean. It killed almost every water species, This is why
+          it is called a modern predator. After so long it extinct because of
+          climate change. But still we can restore it using Serpent Fossil.<br />
+          <b>Sprite</b>-<br /><img
+            class="img-border"
+            src="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/masperent.png?v=1695193636260"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="nli" class="overlay flexbox">
+      <div class="popup scroll">
+        <div>
+          <h2>Not Living Inside</h2>
+          <a class="close" href="#">&times;</a>
+        </div>
+        <div class="content">
+          <b>Name</b>: Bulleon
+          <br />
+          <img class="img-border" src="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/bulleon.png?v=1695193631816" />
+          <br />
+
+          <b>Typing</b>: Steel
+
+          <br />
+          <b>Ability</b>: Rags to Riches
+          <br />
+
+          <b>What it does: </b>
+          - Only works on Bulleon
+          <br />
+          - Ally Fainted/Statused -	&gt; 10% increase in stats except
+          <br />HP (stacks, max = 50%)
+
+          <br />
+          - Unaffected by Stat lowering moves, Hazards and Status effects
+          <br />
+          - When hit, prize money is increased by 10% (Stacks till 50%)
+          <br />
+
+          <b>Technicality</b>: (If pokemon is revived later during the match or
+          status is removed, stat increase does not decrease.)
+
+          <br />
+          <b>Base Stats</b>: 90/60/100/60/100/80
+          <br />
+
+          <b>Notable Moves</b>:
+
+          <b>Pyramid Scheme</b>: (Status move) Opponent is trapped. Takes damage
+          similar to toxic. Ends when the user switches out.
+
+          <br />
+          Stealth Rock, Make it rain, Toxic, Knock Off, Iron Defense, Calm Mind,
+          Morning Sun, Heavy Slam, U-Turn, Body Press
+
+          <br />
+          <b>Competitive</b>:
+
+          <br />
+          <table>
+            <tbody>
+              <th class="top-left-border">Good Utility</th>
+              <th class="top-right-border right-border">Bluffs as utility mon</th>
+              <tr>
+                <td>Bulleon @ Leftovers</td>
+                <td class="right-border">Bulleon @ Leftovers</td>
+              </tr>
+              <tr>
+                <td>Ability: Rags to Riches</td>
+                <td class="right-border">Ability: Rags to Riches</td>
+              </tr>
+              <tr>
+                <td>Stealth Rock</td>
+                <td class="right-border">Pyramid Scheme</td>
+              </tr>
+              <tr>
+                <td>Pyramid Scheme</td>
+                <td class="right-border">Substitute</td>
+              </tr>
+              <tr>
+                <td>Knock Off</td>
+                <td class="right-border">Iron Defense</td>
+              </tr>
+              <tr>
+                <td>Morning Sun</td>
+                <td class="right-border">Body Press</td>
+              </tr>
+              <tr>
+                <td class="bottom-left-border"><b>Evs</b> - Variable</td>
+                <td class="right-border bottom-right-border"><b>Evs</b> - Max HP,DEF</td>
+              </tr>
+            </tbody>
+          </table>
+          <br /><br />
+          At first look, pyramid scheme seems broken as a move, many pokemon in
+          the meta can deal with it barring a few.
+
+          <br /><br /><img
+            src="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/calvstock.png?v=1695193630879"
+            class="img-border"
+          /><br />
+          <b>Name</b>: Calvstock
+
+          <br />
+          <b>Typing</b>: Normal
+          <br />
+
+          <b>Ability</b>: Run Away, Unaware, HA - Adaptability
+          <br />
+
+          <b>Base Stats</b>: 21/32/23/29/27/48
+
+          <br />
+          <b>Notable Moves</b>:
+          <br />
+          Takle, Growl, Headbutt, Flail, Baby-Doll Eyes
+
+          <b>Evolution</b>:
+          <br />
+          Evolves when traded while holding a big nugget. Calvstock must have
+          its hidden ability. Calvstock without hidden abilities do not evolve.
+          <br /><br />
+
+          <b>Lore:</b>
+
+          Hundreds of years ago during the pokemon war, pokemon were brutally
+          mistreated. Many pokemon were kept as livestock and were sold in the
+          black market, one of them being calvstock. Most of these pokemon later
+          became extinct. Calvstocks were on the verge of extinction but a few
+          calvstock decided they had enough. They studied their environment and
+          learnt the ways of the black market. They managed to escape from their
+          owners and used their knowledge in the underground market to build a
+          reputation. Calvstock are intelligent creatures and themselves being
+          experienced with how underground dealings go, helped out a lot of
+          shady businesses. Their experience in the black market later helped
+          them evolve into Bulleon. Bulleon do not help bad people because they
+          want to. It is because, the only way Bulleon would survive in their
+          world is if they help criminal organisations. Bulleon were later kept
+          and raised by big companies for help in investments and trade. The
+          existence of bulleon was only revealed to the common folk when one of
+          the biggest criminal organisations was apprehended and bulleons were
+          found to be few of the masterminds behind their crimes.
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({});
+    </script>
+  </body>
+</html>
