@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Design Shop</title>
+    <link
+      rel="icon"
+      sizes="32x32"
+      href="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/favicon-32x32.png?v=1695193637125"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav id="navbar" data-aos="slide-down">
+      <div id="logo">
+        <a target="_blank" href="https://dawn.psim.us/designshop"
+          >Design Shop</a
+        >
+      </div>
+      <div id="navbtn">
+        <a class="nav-text active" href="/">Home</a>
+        <a class="nav-icon active" href="/" title="home"
+          ><i class="fa-solid fa-house"></i
+        ></a>
+        <a class="nav-text" href="/examples.html">Examples</a>
+        <a class="nav-icon" href="/examples.html" title="Examples"
+          ><i class="fa-solid fa-code-compare"></i
+        ></a>
+        <a class="nav-text" href="/gallery.html">Gallery</a>
+        <a class="nav-icon" href="/gallery.html" title="Gallery"
+          ><i class="fa-solid fa-image"></i
+        ></a>
+        <a class="nav-text" href="/events.html">Events</a>
+        <a class="nav-icon" href="/events.html" title="Events"
+          ><i class="fa-solid fa-fire"></i
+        ></a>
+        <a class="nav-text" href="/staff.html">Staff</a>
+        <a class="nav-icon" href="/staff.html" title="Staff"
+          ><i class="fa-solid fa-user"></i
+        ></a>
+        <i onclick="open_it()" id="bars" class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <div onclick="exit()" id="navoption">
+      <ul>
+        <li>
+          <a href="/"><i class="fa-solid fa-home"></i> Home</a>
+        </li>
+        <li class="li-2">
+          <a href="/examples.html"><i class="fa-solid fa-code-compare"></i> Examples</a>
+        </li>
+        <li>
+          <a href="/gallery.html"><i class="fa-solid fa-iamge"></i> Gallery</a>
+        </li>
+        <li class="li-2">
+          <a href="/events.html"><i class="fa-solid fa-fire"></i> Events</a>
+        </li>
+        <li>
+          <a href="/staff.html"><i class="fa-solid fa-user"></i> Staff</a>
+        </li>
+      </ul>
+    </div>
+    <br />
+    <!-- home -->
+    <div onclick="exit()" class="container">
+      <div id="hero">
+        <div id="hero-title">Design Shop</div>
+        <div id="hero-discription">
+          Design Shop is a Chat Room of
+          <a href="https://dawn.psim.us/" target="_blank" class="links"
+            >Dawn-Server</a
+          ><br />
+          Where you can get high quality avatar and codes at low prices!<br />
+          Unless you are trying to get for any other server.
+        </div>
+      </div>
+      <div class="divider-parent"><div class="child"></div></div>
+      <div class="content">
+        <div class="child" data-aos="flip-down">
+          ~ Apply for Staff ~
+          <br />
+          <p>
+            <font>The first rank is Driver (%)</font><br />
+            First of all, you'll need to determine what criteria you are
+            applying for.
+          </p>
+          <div class="flexbox">
+            <section>
+              <ul>
+                <li>
+                  <a class="links" href="#art-tasks">Designer</a>
+                </li>
+                <li>
+                  <a class="links" href="#code-tasks">Coder</a>
+                </li>
+                <li>
+                  <a class="links" href="#mod-tasks"
+                    >Promotion <font>( Rank @ )</font></a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="flexbox tasks" id="art-tasks">
+        <p data-aos="flip-up" data-aos-duration="300">
+          ~ Tasks for Designers ~
+        </p>
+        <font data-aos="flip-up" data-aos-duration="300"
+          >You'll need to complete all the tasks</font
+        >
+        <div data-aos="flip-up" data-aos-duration="300" class="tasks-column">
+          <span>Designer</span>
+          <br />
+          <ul>
+            <li><strong>Basic Avatar</strong>Caitlin-gen4 + Xerneas.</li>
+            <li><strong>Recolored Avatar</strong>Red + Yveltal.</li>
+            <li><strong>Animated Avatar</strong>Morty-Masters2 + Gengar.</li>
+          </ul>
+          <p>
+            After completing all the tasks, you'll need to contact our designers
+            either on
+            <a
+              href="https://discord.gg/gDHFWm3bMv"
+              target="_blank"
+              class="links"
+              >Discord</a
+            >
+            or
+            <a
+              href="https://dawn.psim.us/designshop"
+              target="_blank"
+              class="links"
+              >Dawn</a
+            >.
+          </p>
+        </div>
+      </div>
+      <div class="flexbox tasks" id="code-tasks">
+        <p data-aos="flip-up" data-aos-duration="300">~ Tasks for Coders ~</p>
+        <font data-aos="flip-up" data-aos-duration="300"
+          >You'll need to complete all the tasks</font
+        >
+        <div
+          data-aos="flip-up"
+          data-aos-duration="300"
+          class="tasks-column aos-init aos-animate"
+        >
+          <span>Coders</span>
+          <br />
+          <ul>
+            <li>
+              <strong>Roomintro</strong>
+              <details>
+                <summary></summary>
+                - Any title image<br />
+                - Any background image<br />
+                - Room name is Guardians of Life<br />
+                - Green buttons (any shape), black border<br />
+                - 3 buttons: Room Auth, Discord and Room Events<br />
+                - A marquee
+              </details>
+            </li>
+            <li>
+              <strong>Declare</strong>
+              <details>
+                <summary></summary>
+                - Based off your very own trainer card. Must contain Background
+                images, buttons and a title image.
+              </details>
+            </li>
+            <li>
+              <strong>Trainer Card</strong>
+              <details>
+                <summary></summary>
+                - A room event is being held in a room named Fairy Land! Make a
+                global declare for it. Must contain a button linking to the
+                room, background image, information and room name as title. You
+                can use <code>/testdeclare [ your code ]</code> to test your
+                declares.
+              </details>
+            </li>
+          </ul>
+          <p>
+            After completing all the tasks, you'll need to contact our coders
+            either on
+            <a
+              href="https://discord.gg/gDHFWm3bMv"
+              target="_blank"
+              class="links"
+              >Discord</a
+            >
+            or
+            <a
+              href="https://dawn.psim.us/designshop"
+              target="_blank"
+              class="links"
+              >Dawn</a
+            >.
+          </p>
+        </div>
+      </div>
+      <div class="flexbox tasks" id="mod-tasks">
+        <p data-aos="flip-up" data-aos-duration="300">
+          ~ Tasks for Promotion ~
+        </p>
+        <font data-aos="flip-up" data-aos-duration="300"
+          >Better you don't ask for it, staffs are active</font
+        >
+        <div
+          data-aos="flip-up"
+          data-aos-duration="300"
+          class="tasks-column aos-init aos-animate"
+        >
+          <span>Promotion</span>
+          <br />
+          <ul>
+            <li>
+              <p>
+                You should have expreince of at least 2 weeks in design shop.
+              </p>
+            </li>
+            <li>
+              <p>
+                Completed at least one <u>custom avatar</u> or <u>pm box</u>.
+              </p>
+            </li>
+            <li><p>Completed at least 5 tasks.</p></li>
+          </ul>
+          <p>
+            I hope you understood everything clearly, Some cool resources for
+            our
+            <a href="#code-suprise" class="links">Coders</a>
+            and
+            <a href="#art-suprise" class="links">Designers</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="divider-parent"><div class="child"></div></div>
+    <div
+      data-aos="slide-up"
+      data-aos-duration="300"
+      id="footer"
+      class="flexbox"
+    >
+      <span>Credits</span>
+      <div class="Owners">
+        Owners - <abbr class="astral">Shadow Astral</abbr>,
+        <abbr class="ansh">4N5H_64M3R</abbr>,
+        <abbr class="xerneas">Xerneas Brothers</abbr>.
+      </div>
+      <div class="Owners">
+        Website Made By - <abbr class="astral">Shadow Astral</abbr>.
+      </div>
+      <div id="footer-end">
+        <a href="https://dawn.psim.us/designshop" target="_blank" title="Dawn"
+          ><img
+            class="icons"
+            src="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/dawn.ico?v=1694945788579"
+        /></a>
+        <a href="https://discord.gg/gDHFWm3bMv" target="_blank" title="Discord"
+          ><img
+            class="icons"
+            src="https://cdn.glitch.global/9f01a7ce-47af-4ed7-a506-4d70f5244f14/discord.ico?v=1694945788579"
+        /></a>
+      </div>
+    </div>
+    <div id="code-suprise" class="overlay flexbox">
+      <div class="popup">
+        <h2>Resources for coders</h2>
+        <a class="close" href="#mod-tasks">&times;</a>
+        <div class="content">
+          <ul>
+            <li>
+              Ps Tool -
+              <a
+                class="defualt-links"
+                href="http://xfix.github.io/roomintro/"
+                target="_blank"
+                >Click to open</a
+              ><br /><small
+                >( Works best in pc and can be use to make roomintro, declare,
+                trainer card, etc. )</small
+              >
+            </li>
+            <li>
+              Html Tool -
+              <a
+                class="defualt-links"
+                href="https://www.tutorialspoint.com/online_html_editor.php"
+                target="_blank"
+                >Click to open</a
+              ><br /><small
+                >( Not that good, but still works better than Ps tool for mobile
+                users. )</small
+              >
+            </li>
+            <li>
+              Free Website Host -
+              <a
+                class="defualt-links"
+                href="https://glitch.com/"
+                target="_blank"
+                >Click to open</a
+              ><br /><small
+                >( Works best in pc and can be use to make pm box, game bot,
+                websites, etc. )</small
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="art-suprise" class="overlay flexbox">
+      <div class="popup">
+        <h2>Resources for designers</h2>
+        <a class="close" href="#mod-tasks">&times;</a>
+        <div class="content">
+          <ul>
+            <li>
+              Trainers -
+              <a
+                class="defualt-links"
+                href="https://play.pokemonshowdown.com/sprites/trainers/"
+                target="_blank"
+                >Click to open</a
+              >
+            </li>
+            <li>
+              Pokemon -
+              <a
+                class="defualt-links"
+                href="https://dex.pokemonshowdown.com/pokemon/"
+                target="_blank"
+                >Click to open</a
+              >
+            </li>
+            <li>
+              Upload -
+              <a
+                class="defualt-links"
+                href="https://pasteboard.co/"
+                target="_blank"
+                >Click to open</a
+              >
+            </li>
+            <li>
+              Piskel -
+              <a
+                class="defualt-links"
+                href="https://www.piskelapp.com/p/create/sprite"
+                target="_blank"
+                >Click to open</a
+              >
+            </li>
+            <li>
+              Trainer Animated -
+              <a
+                class="defualt-links"
+                href="https://archives.bulbagarden.net/wiki/Category:Generation_V_Trainer_sprites"
+                target="_blank"
+                >Click to open</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({});
+    </script>
+  </body>
+</html>
